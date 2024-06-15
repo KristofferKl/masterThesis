@@ -10,7 +10,7 @@ class TopicCombinerNode : public rclcpp::Node
 {
 public:
   TopicCombinerNode()
-  : Node("placeholder_node")
+  : Node("topic_combiner_node")
   {
     // Create subscribers for the input topics
     sub_1_ = this->create_subscription<sensor_msgs::msg::JointState>(
